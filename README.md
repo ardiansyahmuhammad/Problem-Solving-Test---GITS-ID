@@ -1,6 +1,8 @@
-# Balanced Bracket Checker
+# Problem Solving Test - GITS.ID
 
 ## Deskripsi
+
+### third-problem.php
 
 Program ini memeriksa apakah string yang diberikan memiliki bracket yang seimbang. Bracket yang diperbolehkan adalah:
 
