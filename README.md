@@ -1,8 +1,23 @@
 # Problem Solving Test - GITS.ID
 
-## Deskripsi
+## First Problem
 
-### third-problem.php
+Input = 9
+![alt text](image.png)
+Input = 7
+![alt text](image-1.png)
+
+## Second Problem
+
+![alt text](image-2.png)
+
+## third-problem.php
+
+`YES` case
+![alt text](image-3.png)
+
+`NO` case
+![alt text](image-4.png)
 
 Program ini memeriksa apakah string yang diberikan memiliki bracket yang seimbang. Bracket yang diperbolehkan adalah:
 

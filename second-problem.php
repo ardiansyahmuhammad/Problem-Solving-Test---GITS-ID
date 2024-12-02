@@ -28,14 +28,19 @@ function getRank($dense_rank, $score) {
     return count($dense_rank) + 1;
 }
 
-// Input
+echo "Masukkan jumlah pemain: ";
 $total_pemain = intval(trim(fgets(STDIN))); 
+
+echo "Masukkan skor pemain (pisahkan dengan spasi): ";
 $skor = array_map('intval', explode(" ", trim(fgets(STDIN))));
+
+echo "Masukkan jumlah skor Gits: ";
 $hitung_permainan = intval(trim(fgets(STDIN)));
+
+echo "Masukkan skor Gits (pisahkan dengan spasi): ";
 $skor_gits = array_map('intval', explode(" ", trim(fgets(STDIN))));
 
 // Output
 $result = denseRanking($skor, $skor_gits);
-echo $result . "\n";
-
+echo "Ranking Gits: " . $result . "\n";
 ?>
